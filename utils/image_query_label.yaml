@@ -1,0 +1,8 @@
+./assets/dino_two_dogs.jpg:
+  label: ['dog', 'chair', 'floor']
+
+./assets/sam2_truck.jpg:
+  label: ['window', 'wheel', 'wall']
+
+./assets/boats_ambulance.jpg:
+  label: ['sky', 'water', 'boat']
