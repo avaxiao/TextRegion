@@ -1,18 +1,35 @@
-# TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models
+<h1 align="center">TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models</h1>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2505.23769">
+    <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Authors:</strong>
+  <a href="https://avaxiao.github.io">Yao Xiao</a>,
+  <a href="https://qiqianfu.github.io">Qiqian Fu</a>,
+  <a href="https://scholar.google.com/citations?user=LodPihsAAAAJ&hl=en">Heyi Tao</a>,
+  <a href="https://yuqunw.github.io">Yuqun Wu</a>,
+  <a href="https://zzhu.vision">Zhen Zhu</a>,
+  <a href="https://dhoiem.cs.illinois.edu">Derek Hoiem</a>  
+  <br>
+  University of Illinois at Urbana-Champaign
+</p>
 
 ![Teaser](./assets/teaser.png)
 
-**Authors:**: [Yao Xiao](https://avaxiao.github.io), [Qiqian Fu](https://qiqianfu.github.io), [Heyi Tao](https://scholar.google.com/citations?user=LodPihsAAAAJ&hl=en), [Yuqun Wu](https://yuqunw.github.io), [Zhen Zhu](https://zzhu.vision), [Derek Hoiem](https://dhoiem.cs.illinois.edu)  
-University of Illinois at Urbana-Champaign
-
-[![ArXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2505.23769)
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-11)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-11?p=textregion-text-aligned-region-tokens-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-12)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-12?p=textregion-text-aligned-region-tokens-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-7)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-7?p=textregion-text-aligned-region-tokens-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-8)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-8?p=textregion-text-aligned-region-tokens-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-9)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-9?p=textregion-text-aligned-region-tokens-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-4)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-4?p=textregion-text-aligned-region-tokens-from)
 
 ## 📢 News
 
 - **[2025-05-29]**: We dropped the paper and code for **TextRegion** — go check out the magic [here](https://arxiv.org/abs/2505.23769)!
-
----
 
 ## 🧠 Overview
 
@@ -23,8 +40,6 @@ University of Illinois at Urbana-Champaign
 - Multi-object grounding  
 
 > “A simple, general, effective, and training-free approach to create text-compatible region tokens.”
-
----
 
 ## 📦 Installation
 
@@ -50,9 +65,6 @@ To use a different image-text model, update the `--clip_pretrained` and `--clip_
 
 For inference on a custom image, edit the [`./utils/image_query_label.yaml`](./utils/image_query_label.yaml) file and set the `--image_list` to your image path.
 
-
----
-
 ## 📊 Evaluation
 
 ### 1. Open-world Semantic Segmentation
@@ -77,8 +89,6 @@ python eval_all_semantic.py
 ```
 Results are listed in `YOUR_WORK_DIR`.
 
----
-
 ### 2. Referring Expression Comprehension
 
 1.Download [images for RefCOCO](http://images.cocodataset.org/zips/train2014.zip), and then unzip the data using `unzip train2014.zip`. Put unzipped dataset (train2014) to `./eval/datasets/coco_rec/`.
@@ -92,8 +102,6 @@ Results are listed in `YOUR_WORK_DIR`.
 python eval_referring.py --input_file_root ./eval/datasets/coco_rec/reclip_data --image_root ./eval/datasets/coco_rec/train2014
 ```
 
----
-
 ### 3. Multi-object Grounding
 
 1.Download [Reasoning Segmentation Test Dataset](https://github.com/dvlab-research/LISA?tab=readme-ov-file#dataset). Unzip the test.zip to `./eval/datasets/reason_seg/`.
@@ -106,9 +114,6 @@ python eval_referring.py --input_file_root ./eval/datasets/coco_rec/reclip_data 
 ```bash
 python eval_reason_seg.py --dataset_dir ./eval/datasets --interpreted_query_dir ./eval/datasets/reason_seg/interpreted_llava_v15_7b/test
 ```
-
----
-
 
 ## 📈 Citation
 
