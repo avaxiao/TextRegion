@@ -76,7 +76,7 @@ We provide some dataset processing scripts in the [`./process_dataset.sh`](./pro
 
 ####  Evaluation
 
-Please modify the setting `sam2_checkpoint` and `clip_download_root` in [`configs/base_config.py`](configs/base_config.py). You also need to change `data_root` in corresponding dataset configuration files in folder [`configs/cfg_ds`](configs/cfg_ds).
+Please modify the setting `sam2_checkpoint` and `clip_download_root` in [`configs/base_config.py`](configs/base_config.py). You also need to change `data_root` in corresponding dataset configuration files in folder [`configs/cfg_ds`](configs/cfg_ds). 
 Then you may eval specific dataset by:
 
 ```bash
