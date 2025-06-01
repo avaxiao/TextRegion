@@ -55,24 +55,24 @@ bash setup_env.sh
 
 Before run the demo, you need to download the `sam2.1_hiera_large.pt` by the link provided in [SAM2's repo](https://github.com/facebookresearch/sam2?tab=readme-ov-file#download-checkpoints). 
 
-By configuring the `--sam2_checkpoint` and `--clip_download_root` in [`TextRegionSegmenter.py`](TextRegionSegmenter.py), you may run demo directly by:
+By configuring `--sam2_checkpoint` and `--clip_download_root` in [`TextRegionSegmenter.py`](TextRegionSegmenter.py), you may run demo directly by:
 
 ```bash
 python TextRegionSegmenter.py
 ```
 
-To use a different image-text model, update the `--clip_pretrained` and `--clip_architecture` accordingly.
+To use a different image-text model, update `--clip_pretrained` and `--clip_architecture` accordingly.
 
-For inference on a custom image, edit the [`./utils/image_query_label.yaml`](./utils/image_query_label.yaml) file and set the `--image_list` to your image path.
+To run inference on a custom image, edit the [`./utils/image_query_label.yaml`](./utils/image_query_label.yaml) file and set `--image_list` in [`TextRegionSegmenter.py`](TextRegionSegmenter.py) to your image path.
 
 ## 📊 Evaluation
 
-### 1. Open-world Semantic Segmentation
+### 1. Open-World Semantic Segmentation
 
 #### Preparing Data
 
 Please follow the [MMSeg data preparation document](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md) to download and pre-process the datasets including PASCAL VOC, PASCAL Context, Cityscapes, ADE20k, COCO Object and COCO-Stuff164k.
-We provide some dataset processing scripts in the [`./process_dataset.sh`](./process_dataset.sh).
+We provide some dataset processing scripts in [`./process_dataset.sh`](./process_dataset.sh).
 
 ####  Evaluation
 
@@ -102,7 +102,7 @@ Results are listed in `YOUR_WORK_DIR`.
 python eval_referring.py --input_file_root ./eval/datasets/coco_rec/reclip_data --image_root ./eval/datasets/coco_rec/train2014
 ```
 
-### 3. Multi-object Grounding
+### 3. Multi-Object Grounding
 
 1.Download [Reasoning Segmentation Test Dataset](https://github.com/dvlab-research/LISA?tab=readme-ov-file#dataset). Unzip the test.zip to `./eval/datasets/reason_seg/`.
 
@@ -138,4 +138,4 @@ If you find **TextRegion** useful, please consider citing:
 This work is built upon [SAM2](https://github.com/facebookresearch/sam2), [Trident](https://github.com/YuHengsss/Trident), [SCLIP](https://github.com/wangf3014/SCLIP), [OpenCLIP](https://github.com/mlfoundations/open_clip), [ReCLIP](https://github.com/allenai/reclip) and [LISA](https://github.com/dvlab-research/LISA). Thanks for their excellent works.
 
 ### License
-This project is licensed under the [Apache License 2.0](LICENSE).
+This project is released under the [MIT License](LICENSE).
