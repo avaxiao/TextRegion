@@ -2,7 +2,7 @@
 ## TextRegion                                                ##
 ## Copyright (c) 2025                                        ##
 ## Yao (Ava) Xiao                                            ##
-## Licensed under the Apache License, Version 2.0            ##
+## Licensed under the MIT License                            ##
 ## See project root for license details.                     ##
 ###############################################################
 
