@@ -120,14 +120,11 @@ python eval_reason_seg.py --dataset_dir ./eval/datasets --interpreted_query_dir 
 If you find **TextRegion** useful, please consider citing:
 
 ```bibtex
-@misc{xiao2025textregiontextalignedregiontokens,
-      title={TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models}, 
-      author={Yao Xiao and Qiqian Fu and Heyi Tao and Yuqun Wu and Zhen Zhu and Derek Hoiem},
-      year={2025},
-      eprint={2505.23769},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.23769}, 
+@article{xiao2025textregion,
+  title={TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models},
+  author={Xiao, Yao and Fu, Qiqian and Tao, Heyi and Wu, Yuqun and Zhu, Zhen and Hoiem, Derek},
+  journal={arXiv preprint arXiv:2505.23769},
+  year={2025}
 }
 ```
 
