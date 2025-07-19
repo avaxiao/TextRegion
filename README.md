@@ -20,12 +20,12 @@
 
 ![Teaser](./assets/teaser.png)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-11)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-11?p=textregion-text-aligned-region-tokens-from)
+<!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-11)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-11?p=textregion-text-aligned-region-tokens-from)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-12)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-12?p=textregion-text-aligned-region-tokens-from)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-7)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-7?p=textregion-text-aligned-region-tokens-from)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-8)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-8?p=textregion-text-aligned-region-tokens-from)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-9)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-9?p=textregion-text-aligned-region-tokens-from)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-4)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-4?p=textregion-text-aligned-region-tokens-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textregion-text-aligned-region-tokens-from/unsupervised-semantic-segmentation-with-4)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-with-4?p=textregion-text-aligned-region-tokens-from) -->
 
 ## 📢 News
 
@@ -136,3 +136,5 @@ This work is built upon [SAM2](https://github.com/facebookresearch/sam2), [Tride
 
 ### License
 This project is released under the [MIT License](LICENSE).
+
+Note that some of the softwares to download and install for this project are subject to separate copyright notices and license terms, which use is subject to the terms and conditions under which they are made available.
