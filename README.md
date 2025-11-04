@@ -29,6 +29,8 @@
 
 ## 📢 News
 
+- **[2025-11-03]**: Proud to share that TextRegion was accepted to *Transactions on Machine Learning Research* (**TMLR**) and received a J2C Certification — <span style="color:red">top ~10% among accepted papers</span>!
+
 - **[2025-05-29]**: We dropped the paper and code for **TextRegion** — go check out the magic [here](https://arxiv.org/abs/2505.23769)!
 
 ## 🧠 Overview
@@ -120,11 +122,15 @@ python eval_reason_seg.py --dataset_dir ./eval/datasets --interpreted_query_dir 
 If you find **TextRegion** useful, please consider citing:
 
 ```bibtex
-@article{xiao2025textregion,
-  title={TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models},
-  author={Xiao, Yao and Fu, Qiqian and Tao, Heyi and Wu, Yuqun and Zhu, Zhen and Hoiem, Derek},
-  journal={arXiv preprint arXiv:2505.23769},
-  year={2025}
+@article{
+xiao2025textregion,
+title={TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models},
+author={Yao Xiao and Qiqian Fu and Heyi Tao and Yuqun Wu and Zhen Zhu and Derek Hoiem},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=KZLmkL62M4},
+note={J2C Certification}
 }
 ```
 
